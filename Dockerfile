@@ -22,3 +22,5 @@ RUN cd build/scripts && /bin/bash install_lib_O1.sh -c
 RUN cd build/scripts && /bin/bash load_yang.sh
 
 RUN cd build/odu && make clean_odu odu MACHINE=BIT64 MODE=FDD O1_ENABLE=YES
+
+RUN echo "Hello"
