@@ -1,0 +1,4 @@
+# documentation
+.tox
+docs/_build/
+*.swp
